@@ -110,6 +110,7 @@ describe('UserService', () => {
     );
   });
 
+  
   // 예외 케이스 테스트
   it('should handle exceptions when toggling role fails', async () => {
     const mockUser = { id: 1, email: 'test@example.com', role: '0' };
